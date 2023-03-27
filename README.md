@@ -33,9 +33,21 @@ Pretty much impossible to to. How on earth is any normal person supposed to calc
 The only thing cosistently given is electricity tax. Well, at least I found out why Tibber don't give price calculation details. 
 
 Let's try Hamburg:
-All without VAT:
+All without VAT, 2023 Pricing:
 - General Fee 8,92 Cent/kWh
 - Concession: 2,39 Cent/kWh
 - Levies:
   - KWKG: 0,357 Cent/kWh (https://www.netztransparenz.de/KWKG/KWKG-Umlagen-Uebersicht)
-  - 
+  - Offshore: 0,591 Cent/kWh (https://www.netztransparenz.de/EnWG/Offshore-Netzumlage/Offshore-Netzumlagen-Uebersicht)
+  - Cosumer Fee: 0,417 Cent/kWh (https://www.netztransparenz.de/EnWG/-19-StromNEV-Umlage/-19-StromNEV-Umlagen-Uebersicht)
+- Electricity Tax: 2,05 Cent/kWh
+Makes for 14,725 Cents/kWh (VAT excl)
+
+Tibber adds another 0,9Cents / kWh (VAT excl) -> 15,645 Cent/kWh VAT excl.
+
+Add 19% VAT (2,97225 Cents/kWh) -> 18,61755 Cent/kWh (VAT incl)
+Add 19% VAT for Spot Market Rate (9,6Cents/kWh x 0,19 = 1,824 Cent/kWh) -> 20,44155 cent/kWh.
+
+Guess what: Tibber gives us 20,19 Cent/kWh for taxes and fees.
+
+TF.
