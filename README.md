@@ -11,3 +11,11 @@ This is how the chart looks like with raw spot market pricing (DST Switch):
 ![ENTO-E Price Chart (Bars)](entso_e_zeitumstellung.png "ENTSO-E Price Chart Rendering, DST Switch")
 
 # German Electricity Pricing Components
+We'll start from sport market pricing.  
+On top of that, there's
+- a concession fee per kWh (given VAT incl. / excl. depending on provider). Municipalities want money for transmission lines run on their territory.
+- electricity tax per kWh (VAT excl.). Federal government wants money for electricity consumption.
+- levies (VAT excl.). Someone has to pay for wtf.
+
+Finally, Tibber will add a fixed amount of procurement cost per kWh.
+
