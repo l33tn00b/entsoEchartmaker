@@ -31,3 +31,11 @@ Pretty much impossible to to. How on earth is any normal person supposed to calc
 - Tibber do not give details on their price calculation for any given Zip code.
 
 The only thing cosistently given is electricity tax. Well, at least I found out why Tibber don't give price calculation details. 
+
+Let's try Hamburg:
+All without VAT:
+- General Fee 8,92 Cent/kWh
+- Concession: 2,39 Cent/kWh
+- Levies:
+  - KWKG: 0,357 Cent/kWh (https://www.netztransparenz.de/KWKG/KWKG-Umlagen-Uebersicht)
+  - 
