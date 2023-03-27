@@ -14,9 +14,20 @@ This is how the chart looks like with raw spot market pricing (DST Switch):
 We'll start from sport market pricing.  
 On top of that, there's
 - a concession fee per kWh (given VAT incl. / excl. depending on provider). Municipalities want money for transmission lines run on their territory.
+- a general fee per kWh for the benefit of the local utility (given VAT incl. / excl.)
 - electricity tax per kWh (VAT excl.). Federal government wants money for electricity consumption.
 - levies (VAT excl.). Someone has to pay for wtf.
 
 Finally, Tibber will add a fixed amount of procurement cost per kWh.
 
 That's electricity pricing only. Additionally, there's a fee for metering point operation. We don't take that into account.
+
+TF, trying to calculate my price.
+
+Pretty much impossible to to. How on earth is any normal person supposed to calculate their resulting price if
+- the local utility has parts of these price components strewn all over their website without a single, comprehensive chart
+- my current provider (using the local utility for the last mile) shows different re-imbursements to the local utility from what the local utility has on their website
+- the levies for offshore and whateverthefuckelse differ from what federal regulations say?
+- Tibber do not give details on their price calculation for any given Zip code.
+
+The only thing cosistently given is electricity tax. Well, at least I found out why Tibber don't give price calculation details. 
