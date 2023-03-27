@@ -19,3 +19,4 @@ On top of that, there's
 
 Finally, Tibber will add a fixed amount of procurement cost per kWh.
 
+That's electricity pricing only. Additionally, there's a fee for metering point operation. We don't take that into account.
