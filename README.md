@@ -51,3 +51,7 @@ Add 19% VAT for Spot Market Rate (9,6Cents/kWh x 0,19 = 1,824 Cent/kWh) -> 20,44
 Guess what: Tibber gives us 20,19 Cent/kWh for taxes and fees.
 
 TF.
+
+After back and forth with some really friendly and helpful people from the Tibber helpline: They themselves only know the exact amount of fees and concession as soon as they have a contract with you. Only then, the local utility will let them know the current rates. So they do the best they can when you enter a ZIP code for a price estimate using averages based on their experience. 
+
+TF, the German electricity market is just so broken. How about the Federal Regulator (Bundesnetzagentur) setting up a database? What the hell are these guys doing?
