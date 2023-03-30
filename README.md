@@ -47,8 +47,8 @@ Makes for 14,725 Cents/kWh (VAT excl)
 
 Tibber adds another 0,9Cents / kWh (VAT excl) -> 15,645 Cent/kWh VAT excl.
 
-Add 19% VAT (2,97225 Cents/kWh) -> 18,61755 Cent/kWh (VAT incl)
-Add 19% VAT for Spot Market Rate (9,6Cents/kWh x 0,19 = 1,824 Cent/kWh) -> 20,44155 cent/kWh.
+Add 19% VAT (2,97225 Cents/kWh) -> 18,61755 Cent/kWh (VAT incl)  
+Add 19% VAT for Spot Market Rate (9,6Cents/kWh x 0,19 = 1,824 Cent/kWh) -> 20,44155 cent/kWh.  
 
 Guess what: Tibber gives us 20,19 Cent/kWh for taxes and fees.
 
