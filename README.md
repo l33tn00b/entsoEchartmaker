@@ -15,10 +15,10 @@ This is how the chart looks like with raw spot market pricing (DST Switch):
 # German Electricity Pricing Components
 We'll start from sport market pricing.  
 On top of that, there's
-- a concession fee per kWh (given VAT incl. / excl. depending on provider). Municipalities want money for transmission lines run on their territory.
-- a general fee per kWh for the benefit of the local utility (given VAT incl. / excl.)
-- electricity tax per kWh (VAT excl.). Federal government wants money for electricity consumption.
-- levies (VAT excl.). Someone has to pay for wtf.
+- a concession fee per kWh (given VAT incl. / excl. depending on provider). Municipalities want money for transmission lines run on their territory (Konzession).
+- a general fee per kWh for the benefit of the local utility (given VAT incl. / excl.) (Netzgebühr).
+- electricity tax per kWh (VAT excl.). Federal government wants money for electricity consumption (Elektrizitätssteuer).
+- levies (VAT excl.). Someone has to pay for wtf (KWKG-Umlage, § 19 StromNEV-Umlage, Offshore-Umlage).
 
 Finally, Tibber will add a fixed amount of procurement cost per kWh.
 
