@@ -42,7 +42,8 @@ All without VAT, 2023 Pricing:
   - KWKG: 0,357 Cent/kWh (https://www.netztransparenz.de/KWKG/KWKG-Umlagen-Uebersicht)
   - Offshore: 0,591 Cent/kWh (https://www.netztransparenz.de/EnWG/Offshore-Netzumlage/Offshore-Netzumlagen-Uebersicht)
   - Cosumer Fee: 0,417 Cent/kWh (https://www.netztransparenz.de/EnWG/-19-StromNEV-Umlage/-19-StromNEV-Umlagen-Uebersicht)
-- Electricity Tax: 2,05 Cent/kWh
+- Electricity Tax: 2,05 Cent/kWh  
+
 Makes for 14,725 Cents/kWh (VAT excl)
 
 Tibber adds another 0,9Cents / kWh (VAT excl) -> 15,645 Cent/kWh VAT excl.
