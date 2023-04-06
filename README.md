@@ -20,7 +20,7 @@ This is how a line render of the pricing data looks like with VAT and additional
 ![Tibber Price Chart (Line)](tibber_entsoe_linechart_vatincl.png "Tibber Price Chart Rendering, Line Style")
 
 # German Electricity Pricing Components
-We'll start from sport market pricing.  
+We'll start from raw spot market pricing.  
 On top of that, there's
 - a concession fee per kWh (given VAT incl. / excl. depending on provider). Municipalities want money for transmission lines run on their territory (Konzession).
 - a general fee per kWh for the benefit of the local utility (given VAT incl. / excl.) (Netzgebühr).
