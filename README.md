@@ -10,7 +10,10 @@ How? Tibber pricing is based off european spot market prices. There's additional
 Problems along the way? Good luck finding the levies and/or transmission fees you need to add to the raw spot market price. Even then, the result probably won't match the price chart on Tibber's website. That's not a problem, though. Tibber don't know the exact amount of fees/levies themselves and will only be told by your local utility once you've become a customer.
 
 This is how the chart looks like with raw spot market pricing (DST Switch):
-![ENTO-E Price Chart (Bars)](entso_e_zeitumstellung.png "ENTSO-E Price Chart Rendering, DST Switch")
+![ENTSO-E Price Chart (Bars)](entso_e_zeitumstellung.png "ENTSO-E Price Chart Rendering, DST Switch")
+
+This is how a line render of the pricing data looks like with VAT and additional pricing components included:
+![Tibber Price Chart (Line)](tibber_entsoe_linechart_vatincl.png "Tibber Price Chart Rendering, Line Style")
 
 # German Electricity Pricing Components
 We'll start from sport market pricing.  
