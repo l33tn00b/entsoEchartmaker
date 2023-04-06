@@ -76,7 +76,7 @@ There's three possibilities for the base image:
 Now, what are my criteria?
 - I'm lazy. The container will be running for quite a while without being re-created. So we'd like to make sure we can auto-update the container.
 - I like it comfortable. Debug options should be included. 
-- I have room to spare. While a smaller container would be nice, size is not the main criteria.
+- I have room to spare. While a smaller container would be nice, size is not the main criterion.
 
 The result?
 We'll use a distribution base image so we can run unattended upgrades for security fixes. If something breaks, it breaks. I'd rather have a broken container than a security problem (yes, problem). The base distro image will also include a shell for debug while being a bit larger.  
