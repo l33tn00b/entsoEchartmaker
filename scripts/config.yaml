@@ -63,7 +63,7 @@ do_average : True
 # price calculation data
 # you may choose to have raw spot market prices displayed
 # (no additional markup) by setting raw_pricing : True
-raw_pricing : False
+raw_pricing : True
 # if raw_pricing is not True, we need to specify additional pricing
 # components
 # vat applicable (in percent: vat : 19 means nineteen percent vat)
