@@ -23,6 +23,7 @@ This is how a line render of the pricing data looks like with VAT and additional
 
 ## Run it
 - Edit ```scripts/config.yaml``` 
+  ![Edit config file](edit_config.png "Edit config file")
   - Enter your API key (most important). 
   - Change country code (if desired) to match your location
   - Change language (if desired, optional)
@@ -108,4 +109,18 @@ The Dockerfile is your place for configuring:
 - Locale (Trying to get decimal separator right, TF)
 ### Config File (config.yaml)
 The script config file is located at ```scripts/config.yaml```. There's a multitude of options.
+
+| Option        | Description     
+| ------------- |:-------------:| 
+| copy_to_www_dir   | True or False, Copy chart data (png, bin, sha) to web server directory | 
+| www_dir          | Target directory for file copy, no trailing slash!      | 
+| debug | True or False, display additional data during script execution      | 
+| max_lookahead | True or False, Squeeze all available data into one chart|
+| next_day  | True or False, try to get data for next day, create a separate chart from it|
+| outfile2_name | Specify file name(s) for nex day chart|
+| chart_width | width of chart in pixels (change for different display) |
+| chart_height | height of chart in pixels (change for different display) |
+| chart_style | bar or line, see above for examples |
+| do_average | True or False, Calculate average price for day and annotate on chart|
+| raw_pricing | True or False, if True, raw ENTSO-E data will be displayed, if false you need to specify additional pricing components, see below|
 
