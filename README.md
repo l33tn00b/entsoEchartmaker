@@ -21,6 +21,11 @@ This is how the chart looks like with raw spot market pricing (DST Switch):
 This is how a line render of the pricing data looks like with VAT and additional pricing components included:
 ![Tibber Price Chart (Line)](tibber_entsoe_linechart_vatincl.png "Tibber Price Chart Rendering, Line Style")
 
+## Run it
+- Build the image: ```docker build . -t tchart```
+- Run the image: ```docker run --restart unless-stopped -d -p 8999:8999 --name tchart_run tchart```
+
+
 ## Where Is My Result? (Default Settings)
 - Today's chart is available at ```https://<ip>:8999/image.png```
   - Binary format for ePaper: ```https://<ip>:8999/image.bin```
@@ -90,3 +95,13 @@ Now, what are my criteria?
 
 The result?
 We'll use a distribution base image so we can run unattended upgrades for security fixes. If something breaks, it breaks. I'd rather have a broken container than a security problem (yes, problem). The base distro image will also include a shell for debug while being a bit larger.  
+
+
+## Config
+### Dockerfile
+The Dockerfile is your place for configuring:
+- Container Timezone (for getting correct raw pricing data from ENTSO-E)
+- Locale (Trying to get decimal separator right, TF)
+### Config File (config.yaml)
+The script config file is located at ```scripts/config.yaml```. There's a multitude of options.
+
