@@ -21,6 +21,14 @@ This is how the chart looks like with raw spot market pricing (DST Switch):
 This is how a line render of the pricing data looks like with VAT and additional pricing components included:
 ![Tibber Price Chart (Line)](tibber_entsoe_linechart_vatincl.png "Tibber Price Chart Rendering, Line Style")
 
+## Where Is My Result? (Default Settings)
+- Today's chart is available at ```https://<ip>:8999/image.png```
+  - Binary format for ePaper: ```https://<ip>:8999/image.bin```
+  - Hash of binary file for ePaper: ```https://<ip>:8999/image.sha```
+- Tomorrow's chart is available (if data already available) at ```https://<ip>:8999/image2.png```
+  - Binary format for ePaper: ```https://<ip>:8999/image2.bin```
+  - Hash of binary file for ePaper: ```https://<ip>:8999/image2.sha```
+  
 # German Electricity Pricing Components
 We'll start from raw spot market pricing.  
 On top of that, there's
