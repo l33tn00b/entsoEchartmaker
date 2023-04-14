@@ -22,6 +22,10 @@ This is how a line render of the pricing data looks like with VAT and additional
 ![Tibber Price Chart (Line)](tibber_entsoe_linechart_vatincl.png "Tibber Price Chart Rendering, Line Style")
 
 ## Run it
+- Edit ```scripts/config.yaml``` 
+  - Enter your API key (most important). 
+  - Change country code (if desired) to match your location
+  - Change language (if desired, optional)
 - Build the image: ```docker build . -t tchart```
 - Run the image: ```docker run --restart unless-stopped -d -p 8999:8999 --name tchart_run tchart```
 
