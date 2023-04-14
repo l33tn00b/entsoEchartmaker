@@ -12,7 +12,7 @@ The scraped chart is pretty hard to read. So we'd love to have a more legible di
 Tibber pricing is based off european spot market prices. There's additional cost per kWh caused by transmission fees and some german peculiarities. We need to add these to the spot market price reported to/by ENTSO-E.
 
 ## Problems along the way? 
-Good luck finding the levies and/or transmission fees you need to add to the raw spot market price. Even then, the result probably won't match the price chart on Tibber's website. That's not a problem, though. Tibber don't know the exact amount of fees/levies themselves and will only be told by your local utility once you've become a customer.
+Good luck finding the levies and/or transmission fees you need to add to the raw spot market price. Even then, the result probably won't match the price chart on Tibber's website. That's not a problem, though. Tibber don't know the exact amount of fees/levies themselves and will only be told by your local utility once you have a contract with Tibber.
 
 ## Result
 This is how the chart looks like with raw spot market pricing (DST Switch):
