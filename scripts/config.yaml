@@ -1,6 +1,6 @@
 # general behaviour
 # so we may test outside of container environment
-copy_to_www_dir : False         # copy resulting image to www dir
+copy_to_www_dir : True         # copy resulting image to www dir
 # output file storage
 www_dir : "/var/www/site"            # without trailing slash!
 #outfile_name : "image"          # omit suffix! will be appended automatically
