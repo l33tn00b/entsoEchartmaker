@@ -3,6 +3,8 @@ Re-create the Tibber Price Chart for ePaper Display.
 
 This little project aims to re-create the Tibber price chart instead of scraping it from their website. Final result is a container running the script which creates the price chart. The chart in turn will be served to clients by a web server.
 
+This is very, very bad code. But hey, whatever works.
+
 ## Why? 
 The scraped chart is pretty hard to read. So we'd love to have a more legible display. 
 
