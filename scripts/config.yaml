@@ -1,0 +1,107 @@
+# general behaviour
+# so we may test outside of container environment
+copy_to_www_dir : False         # copy resulting image to www dir
+# output file storage
+www_dir : "/var/www/site"            # without trailing slash!
+#outfile_name : "image"          # omit suffix! will be appended automatically
+outfile_name : "image"
+# debug (show plots)
+# will fail miserably if there is no display
+# True or False
+debug : True
+
+
+# API access requires a token from entso-e 
+# you may request the token once you've 
+# set up an account by mailing to transparency@entsoe.eu
+# having Restful API access in the subject line
+# takes a day or two...
+# given as string (i.e. incl "")
+api_key : "586ec68b-8c5f-4a21-8359-e482ba67a271"
+
+# country code
+# this is the pricing zone
+# for germany, it is a common zone with luxembourg
+# see https://github.com/EnergieID/entsoe-py
+# given as string
+country_code : "DE_LU"
+
+# time zone
+# a valid time zone spec given as string (e.g. "Europe/Berlin")
+timezone : "Europe/Berlin"
+
+# locale (in theory, matplotlib will honor this)
+loc_langterr : "de_DE"
+loc_codeset : "UTF-8"
+
+# makes the chart look very crowded but if you so wish, you may
+# specify max_lookahead : True
+# to obtain next-day pricing, too
+# True or False
+max_lookahead : False
+
+# try to get next day data for a separate chart
+# if available, it will be created with filename
+# outfile2_name
+next_day : True
+outfile2_name : "image2"
+
+# set chart/image height and width for
+# epaper display
+# landscape mode for better display
+chart_width : 960
+chart_height : 540
+
+# chart style
+# "bar" or "line"
+chart_style : "line"
+
+# display average over time period in chart?
+# True or False
+do_average : True
+
+# price calculation data
+# you may choose to have raw spot market prices displayed
+# (no additional markup) by setting raw_pricing : True
+raw_pricing : False
+# if raw_pricing is not True, we need to specify additional pricing
+# components
+# vat applicable (in percent: vat : 19 means nineteen percent vat)
+vat : 19
+# network charge (of local utility), Cents/kWh VAT excl.
+# this is only the amount per kWh
+# normally, there is an additional charge per month
+# idk how tibber handles this. 
+# german: Netzentgelt Arbeitspreis (per kWh)
+# der feste anteil wäre der Jahrespreis/Tagespreis
+# please note the decimal separator being a dot
+net_charge : 6.53
+# concession fee (Cents/kWh), VAT excl.
+concession : 1.99
+# electricity tax (Cents/kWh), VAT excl.
+etax : 2.05
+# levies (Cents/kWh) VAT excl.
+# in germany that would be: KWKG, Offshore, Letztverbraucher
+# as of 03/2023
+# KWKG sonstige letztverbraucher < 1GWh: 0,357 Cent/kWh
+# Offshore Netzumlage: 0,591 Cent/kWh
+# Letztverbraucher (< 1GWh): 0,417 Cent/kWh
+levies : 1.365
+# tibber markup (Cent/kWh)
+tibber : 0.92 
+
+
+# set label string
+# leave whitespace because date will be appended
+# if date only is desired: just define 
+# label_str to be an empty string.
+label_str : "Preis "
+# set curlabel_str to string you want to be displayed at current
+# hour price. Current price will be appended.
+curlabel_str : "Momentan"
+xlabel_str : "Stunde"
+
+# add timestamp of data fetch/chart update
+# good luck when doing the bar chart
+# True or False
+update_timestamp : True
