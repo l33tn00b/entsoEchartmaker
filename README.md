@@ -110,7 +110,7 @@ The Dockerfile is your place for configuring:
 ### Config File (config.yaml)
 The script config file is located at ```scripts/config.yaml```. There's a multitude of options.
 
-| Option        | Description     
+| Option        | Description    | 
 | ------------- |:-------------:| 
 | copy_to_www_dir   | True or False, Copy chart data (png, bin, sha) to web server directory | 
 | www_dir          | Target directory for file copy, no trailing slash!      | 
@@ -122,5 +122,17 @@ The script config file is located at ```scripts/config.yaml```. There's a multit
 | chart_height | height of chart in pixels (change for different display) |
 | chart_style | bar or line, see above for examples |
 | do_average | True or False, Calculate average price for day and annotate on chart|
-| raw_pricing | True or False, if True, raw ENTSO-E data will be displayed, if false you need to specify additional pricing components, see below|
+| raw_pricing | True or False, if True, raw ENTSO-E data will be displayed, if False you need to specify additional pricing components, see below|
+| vat | VAT applicable (in percent, without percentage sign) |
+| net_charge | Durchleitungsgebühren, Transmission fees (Cent/kWh, dot as decimal separator) |
+| concession | Konzession, Concession fees (Cent/kWh, dot as decimal separator)|
+| etax | Electricity tax (Cent/kWh, dot as decimal separator) |
+| levies | Umlagen (Cent/kWh, dot as decimal separator) |
+| tibber | Tibber fee (Cent/kWh)|
+| label_str | String, Top chart label |
+| curlabel_str | String, label for current price indicator |
+| xlabel_str | String, label for x axis |
+| update_timestamp | True or False, add date/time of latest update to chart |
+
+
 
