@@ -67,6 +67,9 @@ RUN service cron start
 ADD conf_scripts /etc/supervisor/conf.d
 # do startup of services
 ADD startup_scripts /opt/bin
+RUN chmod a+x /opt/bin/cronrestart.sh
+RUN chmod a+x /opt/bin/gen-keys.sh
+RUN chmod a+x /opt/bin/start-chart.sh
 # add nodaemon config option
 COPY supervisor/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 # start with config file given
